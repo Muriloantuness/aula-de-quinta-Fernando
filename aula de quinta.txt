@@ -1,0 +1,30 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class Aluno
+{
+    public string Nome;
+    public string RA;
+    public int Idade;
+}
+
+public class Program
+{
+    static void Main(string[] args)
+    {
+        // Criando uma instância da classe Aluno
+        Aluno aluno1 = new Aluno
+        {
+            Nome = "Murilo Antunes",
+            RA = "G845013",
+            Idade = 21
+        };
+
+        // Exibindo os dados do aluno
+        Console.WriteLine($"Nome: {aluno1.Nome}");
+        Console.WriteLine($"RA: {aluno1.RA}");
+        Console.WriteLine($"Idade: {aluno1.Idade} anos");
+    }
+}
